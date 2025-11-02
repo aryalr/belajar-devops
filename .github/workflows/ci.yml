@@ -2,7 +2,7 @@ name: CI Pipeline - Build dan Push Docker Image
 
 on:
     push:
-        branches ["main"] # trigger pipeline ini setiap kali ada push di branch main
+        branches: [ "main" ] # trigger pipeline ini setiap kali ada push di branch main
     
 jobs:
     build_and_push:
