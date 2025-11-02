@@ -24,4 +24,4 @@ jobs:
             context: .
             file: ./Dockerfile
             push: true
-            tags: spicysss/proyek-devops-dasar
+            tags: spicysss/proyek-devops-dasar:v0.1
