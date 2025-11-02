@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-latest # menggunakan server virtual Ubuntu
         steps:
         - name: Checkout kode
-          uses: action/checkout@v3
+          uses: actions/checkout@v3
         
         # (Optional) Langkah untuk linting atau unit test
         - name: Login ke Docker Hub
